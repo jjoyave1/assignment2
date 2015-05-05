@@ -4,25 +4,76 @@ body {
 
 .octocat img{
 	float: left;
-	width: 245px;
+	width: 389px;
+
+	border: 1px solid #cfcfcf;
+	border-radius: 5px;
+}
+.authors{
+	display: inline-block;
+	float: right;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 .authors img{
+	position: relative;
 	width: 25px;
 	float: right;
+	margin: 2px;
+	margin: 0px 0px 5px 5px;
 }
+
 .octocat{
-	float: left ;
-	border: 1px solid #cfcfcf;
-	border-bottom: -150px;
-	margin: 10px;
+	float: left;
+	margin: 5px;
+	border-bottom: 1px solid #cfcfcf;
 }
 
 ul{
 	list-style: none;
 }
 
+
+.image-number{
+	float: left;
+	color: #cfcfcf;
+}
+
+
+.image-caption{
+	display: inline;
+	float: right;
+}
+.image-caption a{
+	font-weight:  bold;
+	color: black;
+}
+.image-caption span{
+	color: gray;
+}
+
+
 .image-number::before{
 	content: "#";
-	float: left
-	;
-	}
+	float: left;
+}
+
+.image-footer{
+	position: relative;
+	padding: 15px 0;
+}
+
+.image-footer::before{
+	content: "";
+	position: absolute;
+	top: -5px;
+	right: 13px;
+	width: 0;
+	height: 0;
+	margin-right: 8px;
+	border-style: solid;
+	border-width: 7px 6px 0 6px;
+	border-color: #cfcfcf  transparent transparent transparent;
+	display: block;
+}

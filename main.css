@@ -1,0 +1,14 @@
+
+
+img{
+	float: left;
+	width: 245px;
+}
+.authors img{
+	width: 25px;
+}
+.octocat{
+	float: left ;
+	border: 1px solid #cfcfcf;
+	margin: 10px;
+}

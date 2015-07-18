@@ -1,6 +1,6 @@
 body {
 	font-family: sans-serif;
-	margin-left: -25px;
+	margin-left: -15px;
 }
 
 .octocat img{
@@ -49,13 +49,16 @@ ul{
 	display: inline;
 	float: right;
 }
+
 .image-caption a{
 	font-weight:  bold;
 	font-size: smaller;
 	color: black;
 	text-decoration: none;
 }
+
 .image-caption span{
+
 	font-weight: bold;
 	font-size: smaller;
 	color: gray;
@@ -80,7 +83,7 @@ ul{
 	height: 0;
 	margin-right: 8px;
 	border-style: solid;
-	border-width: 8px 7px 0 7px;
+	border-width: 7px 6px 0 6px;
 	border-color: #cfcfcf  transparent transparent transparent;
 	display: block;
 }
